@@ -6,8 +6,9 @@
  
  ## Installation
  
- 1. Télécharger le fichier `parser.exe`
- 2. Créer un dossier `data` dans le même répértoire que l'éxécutable
+ 1. Télécharger le projet au format zip: 
+![image](https://user-images.githubusercontent.com/78849683/137143284-fd80e830-b633-4010-be53-01a55de151e0.png)
+ 2. Extraire l'archive
  3. Placer un (des) fichiers `.xlsx` dans le dossier data
 
 ## Utilisation
