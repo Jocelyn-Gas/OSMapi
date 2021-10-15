@@ -35,7 +35,9 @@ def main(filename: str):
     ]
     print("Ouverture du fichier...", end="\r")
     df = read_excel(filename, "A->B", headers)
-    print("Ouverture terminée     ", end="\r")
+    print("Ouverture terminée     ", end="\n")
+
+    print("Traitement des données", end="\n")
 
     for _, row in tqdm(df.iterrows(), total=len(df.index)):
         fill_missing_coordinates(row)
